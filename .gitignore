@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Datasets and training output
+/data/raw/
+/data/processed/
+/checkpoints/
+/runs/
+/logs/
+
+# Model weights and generated artifacts
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+
+# Build and OS artifacts
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
